@@ -13,7 +13,7 @@
  *
  * @package WordPress
  */
-if ($_SERVER['REMOTE_ADDR']=='127.0.0.1' || $_SERVER['REMOTE_ADDR']=='10.0.1.13') {
+if ($_SERVER['REMOTE_ADDR']=='127.0.0.1' || $_SERVER['REMOTE_ADDR']=='10.0.2.2') {
     define('WP_ENV', 'dev');
 } else {
     define('WP_ENV', 'prod');

@@ -1,2 +1,4 @@
 node_modules/
 --datos utiles/
+wp-content/backups/*
+.sass-cache/*
